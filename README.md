@@ -32,10 +32,9 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | Input Variable | Value Description |
 | ----------- | ----------- |
 |TELEGRAM_TOKEN | Insert your Telegram_Token |
-1.) TELEGRAM_TOKEN : Insert your Telegram_Token 
   a.) PM the @botfather within the telegarm application ( search box), 
   b.) type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot"
-2.) WHITE_LIST_USERS : Insert your telegram username here, unless you want to share the bot and your trading account with every Telegram User like I do ( So that users can demo the application and share the charts with a trading group.) 
+|WHITE_LIST_USERS | Insert your telegram username here, unless you want to share the bot and your trading account with every Telegram User like I do ( So that users can demo the application and share the charts with a trading group.) |
 3.) TEMPLATE_MAX : This is the number of custom templates you plan to navigate through, aka your visual elements(indicators)
 4.) TEMPLATES : list your template names with **;** seperating the names. Such as **MACD;ADX;BOLLINGERBANDS;ELLIOTWAVE;ETC;DEFAULT**
 5.) BOT_TEMPLATE_MAX : This is the number of custom templates you plan to navigate through to control your robots
