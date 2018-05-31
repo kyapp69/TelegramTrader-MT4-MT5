@@ -3,13 +3,13 @@ Connect Telegram Messenger to Metatrader for Trading
 
 # Adding the files to your MetaTrader Platform
 Download the github zip folder to your desktop , extract the contents and prepare moving the files to the appropiate directories from the directions below.
-1.) Open Metatrader Platform and locate the Navigation Bar on the Top of platform
-2.) Click on **File**
-3.) Click on **Open Data Folder** and this will open the file directory where you place the following files
-  a.) Open the **MQL4/MQL5** folder
-  b.) Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present.
-  c.) Open the **Experts** folder and place the files from the github zip folder **Telegram_Trader.ex4/ex5** 
-  d.) restart the platform ( close application and reopen)
+1. Open Metatrader Platform and locate the Navigation Bar on the Top of platform
+2. Click on **File**
+3. Click on **Open Data Folder** and this will open the file directory where you place the following files
+  ..* Open the **MQL4/MQL5** folder
+  ..* Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present.
+ ..* Open the **Experts** folder and place the files from the github zip folder **Telegram_Trader.ex4/ex5** 
+  ..* restart the platform ( close application and reopen)
   
 # Platform Setup Guide
 1.) Open Metatrader platform and locate the Navigation Bar on the Top of platform
@@ -32,7 +32,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | Input Variable | Value Description |
 | ----------- | ----------- |
 |TELEGRAM_TOKEN | Insert your Telegram_Token |
-| PM @botfather within the telegarm application (search box) | Type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot" |
+| [PM @botfather](https://telegram.me/botfather) within the telegarm application (search box) | Type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot" |
 |WHITE_LIST_USERS | Insert your telegram username here, unless you want to share the bot and your trading account with every Telegram User like I do ( So that users can demo the application and share the charts with a trading group.) |
 |TEMPLATE_MAX | This is the number of custom templates you plan to navigate through, aka your visual elements(indicators) |
 |TEMPLATES | list your template names with **;** seperating the names. Such as **MACD;ADX;BOLLINGERBANDS;ELLIOTWAVE;ETC;DEFAULT** |
