@@ -16,18 +16,18 @@ Download the github zip folder to your desktop , extract the contents and prepar
 2. Click on **Tools**
 3. Click on **Options**
 4. Click on **Expert Advisors**
-  a.) Allow automated trading ( checkbox)
-  b.) Allow dll imports ( chechbox)
-  c.) Allow WebRequests for listed URL (checkbox)
-  d.) uncheck the other remaining boxes
-5.) Add new URL :
-  a.) https://api.telegram.org
-6.) Locate the Navigation Bar on the Top of platform
-7.) Click on **View**
-8.) Click on **Navigator** and you will see Navigator Window embedded into the Platform
-9.) Double Click on **Expert Advisors** and this will show all your robots
-10.) Drag and Drop **Telegram_Trader** on to any Open Chart ( anytime Time-Frame, any Market is ok)
-  a.) Alternatively you can simply double-click the **Telegram_Trader** to attach the robot to the most recently selected chart that you have open. 
+  * Allow automated trading ( checkbox)
+  * Allow dll imports ( chechbox)
+  * Allow WebRequests for listed URL (checkbox)
+  * uncheck the other remaining boxes
+5. Add new URL :
+  * https://api.telegram.org
+6. Locate the Navigation Bar on the Top of platform
+7. Click on **View**
+8. Click on **Navigator** and you will see Navigator Window embedded into the Platform
+9. Double Click on **Expert Advisors** and this will show all your robots
+10. Drag and Drop **Telegram_Trader** on to any Open Chart ( anytime Time-Frame, any Market is ok)
+  * Alternatively you can simply double-click the **Telegram_Trader** to attach the robot to the most recently selected chart that you have open. 
 # Telegram_Trader Robot Guide 
 | Input Variable | Value Description |
 | ----------- | ----------- |
