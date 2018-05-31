@@ -32,17 +32,17 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | Input Variable | Value Description |
 | ----------- | ----------- |
 |TELEGRAM_TOKEN | Insert your Telegram_Token |
-  a.) PM the @botfather within the telegarm application ( search box), 
-  b.) type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot"
+| a.) PM the @botfather within the telegarm application ( search box) | 
+  b.) type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot" |
 |WHITE_LIST_USERS | Insert your telegram username here, unless you want to share the bot and your trading account with every Telegram User like I do ( So that users can demo the application and share the charts with a trading group.) |
-3.) TEMPLATE_MAX : This is the number of custom templates you plan to navigate through, aka your visual elements(indicators)
-4.) TEMPLATES : list your template names with **;** seperating the names. Such as **MACD;ADX;BOLLINGERBANDS;ELLIOTWAVE;ETC;DEFAULT**
-5.) BOT_TEMPLATE_MAX : This is the number of custom templates you plan to navigate through to control your robots
-6.) BOT_TEMPLATES : list your template names with **;** seperating the names. Such as **BREAKOUT;MARKETMAKER;PUMPBOT**
-7.) TRADE_ID : The Order Id of your manual trades ( aka MAGIC_NUMBER: This is what MetaTrader calls the order# within the documents )
-8.) ALLOW_TRADING : You can turn off the trading functions so that other telegram users can't trade your account if you share it within a trading group
-9.) CHART_WIDTH : pixles of the screenshot size 
-10.) CHART_HEIGHT : pixles of the screenshot size 
+|TEMPLATE_MAX | This is the number of custom templates you plan to navigate through, aka your visual elements(indicators) |
+|TEMPLATES | list your template names with **;** seperating the names. Such as **MACD;ADX;BOLLINGERBANDS;ELLIOTWAVE;ETC;DEFAULT** |
+| BOT_TEMPLATE_MAX | This is the number of custom templates you plan to navigate through to control your robots |
+| BOT_TEMPLATES | list your template names with **;** seperating the names. Such as **BREAKOUT;MARKETMAKER;PUMPBOT** |
+| TRADE_ID | The Order Id of your manual trades ( aka MAGIC_NUMBER: This is what MetaTrader calls the order# within the documents ) |
+| ALLOW_TRADING | You can turn off the trading functions so that other telegram users can't trade your account if you share it within a trading group |
+| CHART_WIDTH | pixles of the screenshot size |
+| CHART_HEIGHT : pixles of the screenshot size |
 
   
   
