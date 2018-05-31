@@ -6,16 +6,16 @@ Download the github zip folder to your desktop , extract the contents and prepar
 1. Open Metatrader Platform and locate the Navigation Bar on the Top of platform
 2. Click on **File**
 3. Click on **Open Data Folder** and this will open the file directory where you place the following files
-  ..* Open the **MQL4/MQL5** folder
-  ..* Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present.
- ..* Open the **Experts** folder and place the files from the github zip folder **Telegram_Trader.ex4/ex5** 
-  ..* restart the platform ( close application and reopen)
+  * Open the **MQL4/MQL5** folder
+  * Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present.
+ * Open the **Experts** folder and place the files from the github zip folder **Telegram_Trader.ex4/ex5** 
+  * restart the platform ( close application and reopen)
   
 # Platform Setup Guide
-1.) Open Metatrader platform and locate the Navigation Bar on the Top of platform
-2.) Click on **Tools**
-3.) Click on **Options**
-4.) Click on **Expert Advisors**
+1. Open Metatrader platform and locate the Navigation Bar on the Top of platform
+2. Click on **Tools**
+3. Click on **Options**
+4. Click on **Expert Advisors**
   a.) Allow automated trading ( checkbox)
   b.) Allow dll imports ( chechbox)
   c.) Allow WebRequests for listed URL (checkbox)
