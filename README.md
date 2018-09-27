@@ -2,7 +2,7 @@
 Connect Telegram Messenger to Metatrader for Trading, Controlling Robots, Monitoring Platform.
 
 ## Available Robots(EA)
-1. AccountHealth Robot - Delete Pending orders, Close Positions, retrieve account health (pnl,eq,balance) **Free**
+1. MarketMakerManager - Delete Pending orders, Close Positions, retrieve account health (pnl,eq,balance) **Free**
 
 # Adding the files to your MetaTrader Platform
 Download the github zip folder to your desktop , extract the contents and prepare moving the files to the appropiate directories from the directions below.
