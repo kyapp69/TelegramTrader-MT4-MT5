@@ -46,7 +46,11 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | CHART_WIDTH | pixles of the screenshot size |
 | CHART_HEIGHT | pixles of the screenshot size |
 
-  
-  
+# MarketMakerManager Robot Guide 
+| Input Variable | Value Description |
+| ----------- | ----------- |
+|TELEGRAM_TOKEN | Insert your Telegram_Token |
+| [PM @botfather](https://telegram.me/botfather) within the telegarm application (search box) | Type in **/newbot**, give a name, give the @handle_name_bot that you want your bot to have  , and copy paste the Telegram Token into the TELEGRAM_TOKEN. If you are stuck on this step, google "How to make a Telegam bot" |
+|WHITE_LIST_USERS | Insert your telegram username here, unless you want to share the bot and your trading account with every Telegram User like I do ( So that users can demo the application and share the charts with a trading group.) |
 
-Work in progress
+  
