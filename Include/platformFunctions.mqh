@@ -7,19 +7,49 @@ CTrade         m_trade;                      // trading object
 CSymbolInfo    m_symbol;                     // symbol info object
 COrderInfo     m_order;
 
+int orderBuyCount(string sym){
+ int count = 0;
+ for(int i=OrdersTotal()-1;i>=0;i--) // returns the number of current orders
+      if(m_order.SelectByIndex(i)){    // selects the pending order by index for further access to its properties
+         
+         if(m_order.Symbol() == sym && m_order.OrderType()==ORDER_TYPE_BUY_LIMIT ){
+            
+            count++;
+          }    
+      } 
+   return(count);
+}
+int orderSellCount(string sym){
+   int count = 0;
+    for(int i=OrdersTotal()-1;i>=0;i--) // returns the number of current orders
+         if(m_order.SelectByIndex(i)){    // selects the pending order by index for further access to its properties
+            
+             if(m_order.Symbol() == sym && m_order.OrderType()==ORDER_TYPE_SELL_LIMIT ){
+               count++;
+             }    
+         } 
+      return(count);
+}
+
 
 string getPositions(){
       string msg = "";
+      
    // how many positions do we have
    for(int i=PositionsTotal()-1;i>=0;i--){
       if(m_position.SelectByIndex(i)){
       
+      string sym = m_position.Symbol();
+      
          // Build the message string
-        msg += "\n" +   m_position.Symbol() +" "+ DoubleToString(m_position.PriceCurrent(),8) +         "\n"+
+        msg += "\n" +   sym +" "+ DoubleToString(m_position.PriceCurrent(),8) +         "\n"+
         "Entry: " +  DoubleToString( m_position.PriceOpen(),8)  +"\n"+
         "Profit: " +  DoubleToString( m_position.Profit(),8)  +"\n"+
-        "Swap: " +  DoubleToString( m_position.Swap(),8)  +"\n"+
+        "Size: " +  DoubleToString( m_position.Volume(),1)  +"\n"+
+      //  "Swap: " +  DoubleToString( m_position.Swap(),8)  +"\n"+ // not needed for Crypto
+        
         "Action: /close" +  IntegerToString(m_position.Ticket() )  +"\n"+
+        "Action: /delete" +  sym + " ("+ IntegerToString(orderBuyCount(sym)) +"|" + IntegerToString(orderSellCount(sym)) + ")" +"\n"+
         
         "";
         
@@ -42,6 +72,20 @@ void closePosition(long ticket_number){
    
    }
 
+}
+
+int deleteOrders(string sym){
+   int count = 0;
+   for(int i=OrdersTotal()-1;i>=0;i--) // returns the number of current orders
+      if(m_order.SelectByIndex(i)){    // selects the pending order by index for further access to its properties
+         
+         if(m_order.Symbol() == sym){
+            // delete all orders
+             m_trade.OrderDelete(m_order.Ticket());
+             count++;
+          }    
+      } 
+      return(count);
 }
 
 string getUserAccount(){
